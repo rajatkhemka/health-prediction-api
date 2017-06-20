@@ -2,11 +2,11 @@ const express = require('express')
 const pythonshell = require('python-shell')
 let app = express()
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   pythonshell.run('my_script.py', function (err) {
     if (err) throw err;
-    console.log('finished');
-  });
+    console.log('finished')
+  })
   res.send('finished')
 })
 
