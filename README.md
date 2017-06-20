@@ -10,3 +10,16 @@ Api for health prediction
 
 1. node:6.5.*
 2. express:4.15.*
+
+## Style-Guide
+
+### JS
+
+#### Standard (ES8)
+##### Install
+
+    npm install standard --global
+
+##### Run
+
+    standard --fix
