@@ -10,6 +10,7 @@ Api for health prediction
 
 1. node:6.5.*
 2. express:4.15.*
+3. python:2.7.9
 
 ## Style-Guide
 
@@ -23,3 +24,18 @@ Api for health prediction
 ##### Run
 
     standard --fix
+
+### Python
+
+#### PEP8
+##### Install
+
+    pip install pep8
+
+or for Debian
+
+    apt-get install pep8
+
+#### RUN
+
+    pep8 *.py
