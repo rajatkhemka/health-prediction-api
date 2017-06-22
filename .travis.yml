@@ -1,6 +1,14 @@
-language: node_js
-node_js:
-    "6"
-before_script:
-    npm install standard
-script: standard
+matrix:
+  include:
+    - language: node_js
+      node_js: "6"
+      before_script:
+        - npm install standard
+      script:
+        - standard
+    - language: python
+      python: "2.7"
+      before_script:
+        - pip install pep8
+      script:
+        - pep8 *.py
