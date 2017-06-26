@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:rajatkhemka/health-prediction-api.git"
   },
-  "author": "Rajat Khemka, Adarsh Pandey",
+  "author": "Rajat Khemka, Adarsh Learner",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
