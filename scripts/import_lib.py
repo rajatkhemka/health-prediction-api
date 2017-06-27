@@ -1,7 +1,7 @@
 #load libraries
 import pandas
 from pandas.tools.plotting import scatter_matrix
-import matplotlib.pylot as plt
+import matplotlib
 from sklearn import model_selection #it is used for automatic model selection
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
